@@ -1,0 +1,7 @@
+tasks:
+  - init: git remote set-url origin git@github.com:sru2210/sru2210-questionaireApplicationSystem.git && sed "s/\r$//" commit-command.sh | bash && gp open README.md
+vscode:
+ extensions:
+   - redhat.java
+   - vscjava.vscode-java-debug
+   - kyntrack.rev-test-run
